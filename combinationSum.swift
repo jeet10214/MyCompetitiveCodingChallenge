@@ -1,5 +1,6 @@
 //https://leetcode.com/problems/combination-sum/
 
+//Used backtracking Approach
 func combinationSum(_ candidates: [Int], _ target: Int) -> [[Int]] {
     let candidates = candidates.sorted()
     var results = [[Int]]()
